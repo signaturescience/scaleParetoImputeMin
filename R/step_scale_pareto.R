@@ -199,5 +199,5 @@ tidy.step_scale_pareto <- function(x, ...) {
 #' @export
 #' @importFrom generics required_pkgs
 required_pkgs.step_scale_pareto <- function(x, ...) {
-  c("scalePareto")
+  c("scaleParetoImputeMin")
 }

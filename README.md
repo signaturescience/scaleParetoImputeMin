@@ -16,6 +16,6 @@ remotes::install_github("signaturescience/scaleParetoImputeMin", upgrade=FALSE,
 ## Example Use
 
 ```r
-library(scaleParetoImputeMi)
+library(scaleParetoImputeMin)
 
 ```

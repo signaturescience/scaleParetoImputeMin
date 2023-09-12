@@ -290,5 +290,5 @@ tidy.step_impute_minimum <- function(x, ...) {
 #' @export
 #' @importFrom generics required_pkgs
 required_pkgs.step_impute_minimum <- function(x, ...) {
-  c("scalePareto")
+  c("scaleParetoImputeMin")
 }
