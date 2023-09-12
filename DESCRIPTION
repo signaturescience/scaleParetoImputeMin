@@ -1,0 +1,39 @@
+Package: scaleParetoImputeMin
+Type: Package
+Title: Recipes pareto scaling and impute missing values using scaled minimum
+Version: 0.1.0
+Authors@R: 
+  c(person(given = "Myles",
+             family = "Gardner",
+             role = c("aut", "cre"),
+             email = "mgardner@signaturescience.com",
+             comment = c(ORCID = "0000-0002-5202-3138")),
+      person("Signature Science, LLC",
+             role = "cph")
+    )
+Maintainer: Myles Gardner <mgardner@signaturescience.com>
+Description: R package to perform pareto scaling (square root of standard 
+    deviation), and imputing minimums by a scalar within the recipes framework.
+License: GPL-3 + file LICENSE
+URL: https://github.com/signaturescience/scaleParetoImputeMins
+BugReports: https://github.com/signaturescience/scaleParetoImputeMin/issues
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: gzip
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 4.2),
+biocViews: 
+    Software
+Imports: 
+    generics,
+    glue,
+    purrr,
+    recipes,
+    rlang,
+    stats,
+    tibble,
+    vctrs
+Suggests:
+    modeldata
